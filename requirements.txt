@@ -1,19 +1,19 @@
 
 av
 einops
-flashy
-hydra-core
+flashy>=0.0.1
+hydra-core>=1.1
 hydra_colorlog
 julius
 num2words
 numpy
 sentencepiece
-spacy
-torch
-torchaudio
+spacy==3.5.2
+torch>=2.0.0
+torchaudio>=2.0.0
 huggingface_hub
 tqdm
-transformers
+transformers>=4.31.0  # need Encodec there.
 xformers
 demucs
 librosa
